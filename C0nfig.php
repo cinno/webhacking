@@ -1,5 +1,5 @@
 <?php
-//3Turr~C0nfig pubclic edition
+//3Turr~C0nfig public edition
 @error_reporting(1);
 @set_time_limit(0);
 if (!empty($_SERVER['HTTP_USER_AGENT'])) {
